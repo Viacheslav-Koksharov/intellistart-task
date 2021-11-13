@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My CV</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="name">Viacheslav Koksharov</h1>
+      <h2 class="profession">FRONT-END DEVELOPER</h2>
+
+      <div class="content">
+        <aside class="left-side">
+          <div class="photo-card">
+            <img class="photo" src="./me.jpg" alt="My photo" />
+          </div>
+
+          <section class="contacts">
+            <h3>Contacts</h3>
+            <ul class="contacts-list">
+              <li class="contacts-item">
+                <a
+                  href="tel:+380675398265"
+                  class="contacts-link"
+                  target="_blank"
+                >
+                  <svg class="icon" width="10px" height="10px">
+                    <use href="./symbol-defs.svg#icon-phone"></use>
+                  </svg>
+                  +38 067 539 82 65
+                </a>
+              </li>
+              <li class="contacts-item">
+                <a
+                  href="mailto:v.koksharov82@gmail.com"
+                  class="contacts-link"
+                  target="_blank"
+                >
+                  <svg class="icon" width="10px" height="10px">
+                    <use href="./symbol-defs.svg#icon-mail"></use></svg
+                  >v.koksharov82@gmail.com
+                </a>
+              </li>
+              <li class="contacts-item">
+                <a
+                  href="https://github.com/Viacheslav-Koksharov"
+                  class="contacts-link"
+                  target="_blank"
+                >
+                  <svg class="icon" width="10px" height="10px">
+                    <use href="./symbol-defs.svg#icon-github"></use></svg
+                  >https://github.com/Viacheslav-Koksharov
+                </a>
+              </li>
+              <li class="contacts-item">
+                <a
+                  href="http://www.linkedin.com/in/viacheslav-koksharov"
+                  class="contacts-link"
+                  target="_blank"
+                >
+                  <svg class="icon" width="10px" height="10px">
+                    <use href="./symbol-defs.svg#icon-linkedin"></use></svg
+                  >http://www.linkedin.com/in/viacheslav-koksharov
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="skills">
+            <div class="skills-tech">
+              <h3>Tech skills</h3>
+              <ul class="skills-list-tech">
+                <li class="skills-item">React</li>
+                <li class="skills-item">Redux</li>
+                <li class="skills-item">REST API</li>
+                <li class="skills-item">JavaScript (ES6)</li>
+                <li class="skills-item">Git</li>
+                <li class="skills-item">Webpack</li>
+                <li class="skills-item">HTML5&sol;CSS&sol;SASS</li>
+                <li class="skills-item">Adaptive layout</li>
+                <li class="skills-item">Mobile First</li>
+              </ul>
+            </div>
+            <div class="skills-soft">
+              <h3>Soft skills</h3>
+              <ul class="skills-list">
+                <li class="skills-item">Responsibility</li>
+                <li class="skills-item">Friendliness</li>
+                <li class="skills-item">Calmness</li>
+                <li class="skills-item">Good team player</li>
+                <li class="skills-item">Easy to learn</li>
+                <li class="skills-item">Hight self-motivation</li>
+              </ul>
+            </div>
+            <div class="skills-languages">
+              <h3>Languages</h3>
+              <ul class="skills-list">
+                <li class="skills-item">English – pre-intermediate</li>
+                <li class="skills-item">Germany – basic</li>
+                <li class="skills-item">Ukrainian – native</li>
+                <li class="skills-item">Russian – native</li>
+              </ul>
+            </div>
+          </section>
+        </aside>
+
+        <div class="right-side">
+          <section class="goal">
+            <h3 class="title">Goal</h3>
+            <p>
+              I’m looking for an interesting job as a front-end developer in
+              friendly, thriving, and exciting company to develop my skills as
+              well as grove with a team.
+            </p>
+          </section>
+
+          <section class="projects">
+            <h3 class="title">Projects Experience</h3>
+            <ul class="projects-list"></ul>
+            <div class="lightbox js-lightbox">
+              <div class="lightbox-overlay"></div>
+            </div>
+          </section>
+
+          <section class="experience">
+            <h3 class="title">Work Experience</h3>
+            <button
+              type="button"
+              class="menu-button"
+              aria-expanded="false"
+              data-menu-button
+            >
+              Work Experience
+            </button>
+            <div class="menu-container" data-menu>
+              <ul class="work-list">
+                <li class="work-item">
+                  <h4>Сo-founderof a productionandtrading company</h4>
+                  <p>
+                    <b>Fields of activity:</b> local dealership of paints of
+                    world brands
+                  </p>
+                  <p>
+                    <b>My achievements:</b> organization of long-term
+                    relationships on mutually beneficial terms with buildings
+                    companies in Ukraine.
+                  </p>
+                  <p>Year: 2009 - 2021</p>
+                </li>
+                <li class="work-item">
+                  <h4>Head of sales department of buildings materials</h4>
+                  <p>
+                    <b>Fields of activity:</b> trade in construction materials
+                  </p>
+                  <p>
+                    <b>My achievements:</b> control over the fulfillment of
+                    assigned tasks, constructing long-termrelationships on
+                    mutually beneficial terms with buildings companies.
+                  </p>
+                  <p>Year: 2008 - 2009</p>
+                </li>
+                <li class="work-item">
+                  <h4>
+                    Economist- leading engineer of the economic department
+                  </h4>
+                  <p><b>Fields of activity:</b> building industry</p>
+                  <p>
+                    <b>My achievements:</b> control of incoming prices,
+                    coordination of estimated costs with customers.
+                  </p>
+                  <p>Year: 2004 - 2008</p>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="education">
+            <h3 class="title">Education</h3>
+            <button
+              type="button"
+              class="menu-button"
+              aria-expanded="false"
+              data-menu-button
+            >
+              Education
+            </button>
+            <div class="menu-container" data-menu>
+              <ul class="education-list">
+                <li class="education-item">
+                  <h4>Binary Studio Academy 2021</h4>
+                  <p>Front-End developer (online, min 30 hours per week)</p>
+                  <p>Year: 2021</p>
+                </li>
+                <li class="education-item">
+                  <h4>Self-education</h4>
+                  <p>
+                    Front-End developer Mate academy, Cuorsera etc.(online, min
+                    30 hours per week)
+                  </p>
+                  <p>Year: 2020-2021</p>
+                </li>
+                <li class="education-item">
+                  <h4>NationalEconomic University namedafter Vadym Hetman</h4>
+                  <p>Master’s degree -Enterprise economy</p>
+                  <p>Year: 1999-2004</p>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <h3 class="footer-title">Contacts</h3>
+      <ul class="footer-contacts-list">
+        <li class="footer-contacts-item">
+          <a
+            href="tel:+380675398265"
+            class="footer-contacts-link"
+            target="_blank"
+          >
+            <svg class="footer-icon">
+              <use href="./symbol-defs.svg#icon-phone"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-contacts-item">
+          <a
+            href="mailto:v.koksharov82@gmail.com"
+            class="footer-contacts-link"
+            target="_blank"
+          >
+            <svg class="footer-icon">
+              <use href="./symbol-defs.svg#icon-mail"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-contacts-item">
+          <a
+            href="https://github.com/Viacheslav-Koksharov"
+            class="footer-contacts-link"
+            target="_blank"
+          >
+            <svg class="footer-icon">
+              <use href="./symbol-defs.svg#icon-github"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-contacts-item">
+          <a
+            href="http://www.linkedin.com/in/viacheslav-koksharov"
+            class="footer-contacts-link"
+            target="_blank"
+          >
+            <svg class="footer-icon">
+              <use href="./symbol-defs.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="./menu.js"></script>
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>
